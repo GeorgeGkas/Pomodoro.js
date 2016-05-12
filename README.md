@@ -10,18 +10,18 @@
 > Francesco Cirillo in the late 1980s. The technique uses a timer to
 > break down work into intervals, traditionally 25 minutes in length,
 > separated by short breaks.
-> *--from [Wikipedia's article](https://en.wikipedia.org/wiki/Pomodoro_Technique)*
+> *-from [Wikipedia's article](https://en.wikipedia.org/wiki/Pomodoro_Technique)*
 
 
 **Pomodoro.js** allows you to visualize the above technic in your browser.
 
 ##Installation
 
-You only need to download  the **Pomodoro.js** file from this project. 
+You only need to use  the **Pomodoro.js** file from this project. 
 
 [Download the project file.](https://github.com/GeorgeGks/Pomodoro.js/archive/master.zip)
 
-or via git clone
+or via
 
 `git clone https://github.com/GeorgeGks/Pomodoro.js.git`
 
@@ -36,7 +36,7 @@ var Pclock = new PomodoroClock({
     'secondsOutput': '#seconds'
 });
 ```
-You can fill only some of the above values. So if you want to show only minutes you do the follwoing:
+You can fill only some of the above values. So if you want to show only minutes you do the following:
 ```javascript
 var Pclock = new PomodoroClock({
     'minutesOutput': '.minutes'
@@ -78,14 +78,14 @@ Pclock.start({
     'shortBreakTime': 10
 });
 ```
-The other values left untouched so the result would be to make a  25 time work and 10 time break for one repeat. 
+The other values left untouched so the result would be a 25 time work and 10 time break for one repeat. 
 
-Also note that if we pass an empty string the program, it uses the default value (useful for html input fields that are left bank).
+Also note that if we pass an empty string, the program it uses the default value (useful for html input fields that are left bank).
 
 
 ####**Callback support**
 
-You can pass a callback function if you line in the `.start()` method like this:
+You can pass a callback function in the `.start()` method:
 ```javascript
 Pclock.start(function() {
     alert('The lock has finished');           
