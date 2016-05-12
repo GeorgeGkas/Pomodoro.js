@@ -31,7 +31,7 @@ or via git clone
 Create a new class instance and fill the output object keys with the ids (or classes) of the html elements you want the time to be shown.
 ```javascript
 var Pclock = new PomodoroClock({
-    hoursOutput': '#hours',
+    'hoursOutput': '#hours',
     'minutesOutput': '.minutes',
     'secondsOutput': '#seconds'
 });
@@ -61,22 +61,22 @@ If you want to reset the timer to zero in the middle of the process use the bell
 The power of this library lies in the customization of the clock parameters. 
 You can start a custom clock like this:
 ```javascript
-    Pclock.start({
-        'workingTime': 25,
-        'shortBreakTime': 5,
-        'longBreakTime': '15',
-        'repeats':  1,
-        'repeatsUntilLongBreak': '4'
-    });
+Pclock.start({
+    'workingTime': 25,
+    'shortBreakTime': 5,
+    'longBreakTime': '15',
+    'repeats':  1,
+    'repeatsUntilLongBreak': '4'
+});
 ```
 Note that the above values are represent minutes and **should be** numbers or string numbers. Also the above values are the default values of the clock. You can also not use all the fields. 
 
 Let's say we want to change only the short break time to 10 minutes. We type:
 ```javascript
-    Pclock.start({
-       'workingTime': '',
-       'shortBreakTime': 10
-    });
+Pclock.start({
+    'workingTime': '',
+    'shortBreakTime': 10
+});
 ```
 The other values left untouched so the result would be to make a  25 time work and 10 time break for one repeat. 
 
@@ -87,9 +87,9 @@ Also note that if we pass an empty string the program, it uses the default value
 
 You can pass a callback function if you line in the `.start()` method like this:
 ```javascript
-    Pclock.start(function() {
-         alert('The lock has finished');           
-    });
+Pclock.start(function() {
+    alert('The lock has finished');           
+});
 ```
 The above example will run a default clock and will alert a message on end. 
 
