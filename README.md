@@ -29,19 +29,19 @@ or via git clone
 ##Getting Started
 
 Create a new class instance and fill the output object keys with the ids (or classes) of the html elements you want the time to be shown.
-
+```
     var Pclock = new PomodoroClock({
         'hoursOutput': '#hours',
         'minutesOutput': '.minutes',
         'secondsOutput': '#seconds'
     });
-
+```
 You can fill only some of the above values. So if you want to show only minutes you do the follwoing:
-
+```
     var Pclock = new PomodoroClock({
         'minutesOutput': '.minutes'
     });
-
+```
 ###Basic usage
 
 ![](http://storage6.static.itmages.com/i/16/0512/h_1463068910_6833375_5046a0e223.png)
@@ -60,7 +60,7 @@ If you want to reset the timer to zero in the middle of the process use the bell
 
 The power of this library lies in the customization of the clock parameters. 
 You can start a custom clock like this:
-
+```
     Pclock.start({
         'workingTime': 25,
         'shortBreakTime': 5,
@@ -68,16 +68,16 @@ You can start a custom clock like this:
         'repeats':  1,
         'repeatsUntilLongBreak': '4'
     });
-
+```
 Note that the above values are represent minutes and **should be** numbers or string numbers. Also the above values are the default values of the clock. You can also not use all the fields. 
 
 Let's say we want to change only the short break time to 10 minutes. We type:
-
+```
     Pclock.start({
        'workingTime': '',
        'shortBreakTime': 10
     });
-
+```
 The other values left untouched so the result would be to make a  25 time work and 10 time break for one repeat. 
 
 Also note that if we pass an empty string the program, it uses the default value (useful for html input fields that are left bank).
@@ -86,11 +86,11 @@ Also note that if we pass an empty string the program, it uses the default value
 ####**Callback support**
 
 You can pass a callback function if you line in the `.start()` method like this:
-
+```
     Pclock.start(function() {
          alert('The lock has finished');           
     });
-
+```
 The above example will run a default clock and will alert a message on end. 
 
 ##License
