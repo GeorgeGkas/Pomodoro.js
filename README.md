@@ -93,6 +93,9 @@ You can pass a callback function if you line in the `.start()` method like this:
 
 The above example will run a default clock and will alert a message on end. 
 
+##License
 
+Copyright (c) 2016 George G. Gkasdrogkas
+Licensed under the MIT license.
 
 
