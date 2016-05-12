@@ -14,3 +14,15 @@
 
 
 **Pomodoro.js** allows you to visualize the above technic in your browser.
+
+###Getting Started
+
+You only need to download  the **Pomodoro.js** file from this project. 
+
+[Download the zip file.](https://github.com/GeorgeGks/Pomodoro.js/archive/master.zip)
+
+or via git clone
+
+`git clone https://github.com/GeorgeGks/Pomodoro.js.git`
+
+
