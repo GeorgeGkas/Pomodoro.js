@@ -44,6 +44,8 @@ You can fill only some of the above values. So if you want to show only minutes 
 
 ###Basic usage
 
+![](http://storage6.static.itmages.com/i/16/0512/h_1463068910_6833375_5046a0e223.png)
+
 To start the timer with the default values type:
 
     Pclock.start();
