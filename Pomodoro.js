@@ -1,6 +1,7 @@
 /*
  * George G. Gkasdrogkas - georgegkas@gmail.com
  * Version: 1.00 (currently stable), 12/05/2016
+ * Project Page: https://github.com/GeorgeGks/Pomodoro.js
  *
  *
  * The MIT License (MIT)
