@@ -2,9 +2,12 @@
   "name": "pomodoro.js",
   "version": "2.0.0",
   "description": "A javascript time management library for busy humans.",
-  "main": "Pomodoro.js",
+  "main": "Pomodoro.npm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --retain-lines --no-comments  --compact --minified Pomodoro.js -o Pomodoro.npm.js",
+    "unit": "mocha --compilers js:babel-register --recursive ./test/unit/",
+    "eslint": "eslint --ext js Pomodoro.js test/",
+    "cover": "node_modules/.bin/babel-node node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha -- --recursive ./test/unit/"
   },
   "repository": {
     "type": "git",
