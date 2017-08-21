@@ -1,0 +1,32 @@
+{
+  "name": "pomodoro.js",
+  "version": "2.0.0",
+  "description": "A javascript time management library for busy humans.",
+  "main": "Pomodoro2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeGkas/Pomodoro.js.git"
+  },
+  "author": "George Gkasdrogkas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeorgeGkas/Pomodoro.js/issues"
+  },
+  "homepage": "https://github.com/GeorgeGkas/Pomodoro.js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-istanbul": "^0.12.2",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.4.2"
+  }
+}
