@@ -2,7 +2,7 @@
   "name": "pomodoro.js",
   "version": "2.0.0",
   "description": "A javascript time management library for busy humans.",
-  "main": "Pomodoro2.js",
+  "main": "Pomodoro.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
