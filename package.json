@@ -1,5 +1,5 @@
 {
-  "name": "pomodoro.js",
+  "name": "pomodorojs",
   "version": "2.0.0",
   "description": "A javascript time management library for busy humans.",
   "main": "Pomodoro.npm.js",
