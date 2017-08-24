@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 0.10
+  - 0.12
+  - 4
+  - 6
+  - lts/*
+
+branches:
+  only:
+  - version2
+
+after_success: npm run coveralls
