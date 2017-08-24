@@ -6,7 +6,7 @@
  *
  * The MIT License (MIT)
  *
- * Copyright (c) 2016-2017 George G. Gkasdrogkas
+ * Copyright (c) 2016-2017 George Gkasdrogkas
  *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
  * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
@@ -17,6 +17,24 @@
  * USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-/*
- * Not yet implemented any feature.
- */
+(function (exports) {
+  const hOutput = Symbol('hO');
+  const mOutput = Symbol('mO');
+  const sOutput = Symbol('sO');
+
+  class Pomodoro {
+    constructor({ hours = null, minutes = null, seconds = null } = {}) {
+      this[hOutput] = hours;
+      this[mOutput] = minutes;
+      this[sOutput] = seconds;
+    }
+
+    static toString() {
+      return Pomodoro.prototype[Symbol.toStringTag];
+    }
+  }
+
+  Pomodoro.prototype[Symbol.toStringTag] = 'Pomodoro';
+
+  exports.Pomodoro = Pomodoro;
+}(typeof window !== 'undefined' ? window : module.exports));

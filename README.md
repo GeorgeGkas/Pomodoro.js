@@ -23,7 +23,7 @@ Refer to [version 2](https://github.com/GeorgeGkas/Pomodoro.js/blob/version2/spe
 
 ## License
 
-Copyright (c) 2016 George G. Gkasdrogkas
+Copyright (c) 2016 George Gkasdrogkas
 Licensed under the MIT license.
 
 

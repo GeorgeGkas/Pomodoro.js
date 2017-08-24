@@ -7,5 +7,10 @@
         "mocha": true,
         "browser": true,
         "node": true
+    },
+    "rules":
+    {
+      "func-names": ["error", "never"],
+      "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["exports"] }],
     }
 }

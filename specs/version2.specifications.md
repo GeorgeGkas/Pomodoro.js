@@ -5,9 +5,9 @@
 ### Create a new instance
 
 New timers are created using `new PomodoroClock()`. The constructor takes one optional argument: an object whose property values indicate the HTML element/s to be used for output by the timer. The properties of this object are shown bellow:
-- *hoursOutput*
-- *minutesOutput*
-- *secondsOutput*
+- *hours*
+- *minutes*
+- *seconds*
 
 
 Each property value is a string that contain the id or the class of an HTML element. The conversion that is used is the same with the jQuery library. 
@@ -15,9 +15,9 @@ Each property value is a string that contain the id or the class of an HTML elem
 Example:
 ```javascript
 const Pclock = new PomodoroClock({
-  hoursOutput: '#hours', // output hours in the HTML element with id 'hours'
-  minutesOutput: '.minutes', // output minutes in all HTML elements with class 'minutes'
-  secondsOutput: '#seconds' // output seconds in the HTML element with id 'seconds'
+  hours: '#hours', // output hours in the HTML element with id 'hours'
+  minutes: '.minutes', // output minutes in all HTML elements with class 'minutes'
+  seconds: '#seconds' // output seconds in the HTML element with id 'seconds'
 });
 ```
 
@@ -25,7 +25,7 @@ All properties are optional. For instance, if you want to show only the minutes 
 
 ```javascript
 const Pclock = new PomodoroClock({
-  minutesOutput: '.minutes', // output minutes in all HTML elements with class 'minutes'
+  minutes: '.minutes', // output minutes in all HTML elements with class 'minutes'
 });
 ```
 

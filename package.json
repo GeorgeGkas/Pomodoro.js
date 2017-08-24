@@ -4,7 +4,7 @@
   "description": "A javascript time management library for busy humans.",
   "main": "Pomodoro.npm.js",
   "scripts": {
-    "build": "babel --retain-lines --no-comments  --compact --minified Pomodoro.js -o Pomodoro.npm.js",
+    "build": "babel --no-comments  --compact --minified Pomodoro.js -o Pomodoro.npm.js",
     "unit": "mocha --compilers js:babel-register --recursive ./test/unit/",
     "eslint": "eslint --ext js Pomodoro.js test/",
     "cover": "node_modules/.bin/babel-node node_modules/.bin/babel-istanbul cover node_modules/.bin/_mocha -- --recursive ./test/unit/"
