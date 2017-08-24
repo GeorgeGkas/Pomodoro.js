@@ -1,7 +1,7 @@
-**Note:** This is the next version of the library. Right now, it's under development mode and many features might break. Please use the [default version](https://github.com/GeorgeGkas/Pomodoro.js/tree/master) instead for production enviroments.
+**Note:** This is the next version of the library. Right now, it's under development mode and many features might break. Please use the [stable version](https://github.com/GeorgeGkas/Pomodoro.js/tree/master) instead for production enviroments.
 
 # Pomodoro JS
-![](https://img.shields.io/badge/version-1.0%20stable-2980b9.svg?style=flat-square) ![](https://img.shields.io/badge/ECMAScript-2015%20/%20v6-1abc9c.svg?style=flat-square) ![](https://img.shields.io/badge/license-MIT-3498db.svg?style=flat-square) 
+![](https://img.shields.io/badge/version-2.0.0%20dev-2980b9.svg)  [![Build Status](https://travis-ci.org/GeorgeGkas/Pomodoro.js.svg?branch=version2)](https://travis-ci.org/GeorgeGkas/Pomodoro.js) [![Coverage Status](https://coveralls.io/repos/github/GeorgeGkas/Pomodoro.js/badge.svg?branch=version2)](https://coveralls.io/github/GeorgeGkas/Pomodoro.js?branch=master) ![](https://img.shields.io/badge/license-MIT-3498db.svg)
 
 #### A javascript time management library for busy humans.
 ----------
@@ -23,7 +23,5 @@ Refer to [version 2](https://github.com/GeorgeGkas/Pomodoro.js/blob/version2/spe
 
 ## License
 
-Copyright (c) 2016 George Gkasdrogkas
-Licensed under the MIT license.
-
-
+Copyright (c) 2016-2017 George Gkasdrogkas
+Licensed under the [MIT](https://github.com/GeorgeGkas/Pomodoro.js/blob/version2/LICENSE) license.
